@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T15:59:45.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="a-Jefa4xI6colpuk2eMk" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T16:00:30.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="cE2NqOcccKQa9Vqgu7Vl" version="13.8.5" type="github">
   <diagram id="Y8OE2I2hK1Na6KAGc6tf" name="Page-1">
     <mxGraphModel dx="937" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="210" y="40" width="560" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-2" value="Tech Ops" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="280" width="30" height="60" as="geometry" />
+          <mxGeometry x="10" y="400" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-3" value="Display Partner Details" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="150" width="120" height="70" as="geometry" />
@@ -67,9 +67,9 @@
             <mxPoint x="280" y="215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f0wVNXhXmvdFokiBNhzK-11" value="" style="endArrow=none;endFill=0;endSize=12;html=1;entryX=0.038;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AAG1h3JBsHE02cxiQFRj-2" target="AAG1h3JBsHE02cxiQFRj-12">
+        <mxCell id="f0wVNXhXmvdFokiBNhzK-11" value="" style="endArrow=none;endFill=0;endSize=12;html=1;entryX=0.038;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.55;exitY=0.742;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AAG1h3JBsHE02cxiQFRj-2" target="AAG1h3JBsHE02cxiQFRj-12">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="51.48" y="410.47" as="sourcePoint" />
+            <mxPoint x="40" y="460" as="sourcePoint" />
             <mxPoint x="239.99999999999997" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
