@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T14:38:09.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="lU5o0NUo8Oh1N4Krysc8" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T15:27:49.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="YZGQoIEqoa5qPWOE6G7m" version="13.8.5" type="github">
   <diagram id="Y8OE2I2hK1Na6KAGc6tf" name="Page-1">
-    <mxGraphModel dx="937" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AAG1h3JBsHE02cxiQFRj-1" value="Rule-Opt-Out" style="shape=umlFrame;whiteSpace=wrap;html=1;width=250;height=50;" parent="1" vertex="1">
-          <mxGeometry x="160" y="40" width="560" height="1080" as="geometry" />
+          <mxGeometry x="210" y="40" width="560" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-2" value="Tech Ops" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-3" value="Display Partner Details" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="180" width="120" height="70" as="geometry" />
+          <mxGeometry x="250" y="150" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-4" value="Get Partner Details by Partner Id" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="90" width="140" height="70" as="geometry" />
+          <mxGeometry x="540" y="90" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-6" value="Select Rule" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="290" width="120" height="70" as="geometry" />
+          <mxGeometry x="230" y="270" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-7" value="Get all Children by Partner Detail Id" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="200" width="140" height="70" as="geometry" />
+          <mxGeometry x="585" y="200" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-8" value="Display Child&#39;s rules" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="460" width="140" height="70" as="geometry" />
+          <mxGeometry x="585" y="450" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-9" value="Check if rule is active for each Child partner" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="310" width="140" height="70" as="geometry" />
+          <mxGeometry x="580" y="340" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-10" value="Analyse Child" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="400" width="120" height="70" as="geometry" />
+          <mxGeometry x="240" y="395" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-11" value="Select Child&#39;s checkbox" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="520" width="120" height="70" as="geometry" />
+          <mxGeometry x="260" y="540" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-12" value="Save Changes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="640" width="120" height="70" as="geometry" />
+          <mxGeometry x="300" y="680" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-13" value="Invert Active State" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="630" width="140" height="70" as="geometry" />
+          <mxGeometry x="570" y="630" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="f0wVNXhXmvdFokiBNhzK-1" value="DBS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="280" width="30" height="60" as="geometry" />
+          <mxGeometry x="840" y="400" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
