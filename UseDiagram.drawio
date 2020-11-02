@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T11:35:31.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="SZPFgsbBvTnCYgrzcjAy" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T11:37:42.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="1uEyF8wTSy7tRmNQUv8y" version="13.8.8" type="github">
   <diagram id="Y8OE2I2hK1Na6KAGc6tf" name="Page-1">
     <mxGraphModel dx="2897" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -23,10 +23,10 @@
           <mxGeometry x="-690" y="700" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-8" value="Display Child&#39;s rules" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1010" y="920" width="140" height="70" as="geometry" />
+          <mxGeometry x="-1030" y="890" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-9" value="Check if rule is active for each Child partner" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-810" y="820" width="140" height="70" as="geometry" />
+          <mxGeometry x="-770" y="830" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-11" value="Select Child&#39;s checkbox" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-980" y="1100" width="120" height="70" as="geometry" />
@@ -199,7 +199,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x87mlo7bCjJ_3I-Y6eXt-7" value="" style="endArrow=none;endFill=0;endSize=12;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="f0wVNXhXmvdFokiBNhzK-1" target="AAG1h3JBsHE02cxiQFRj-8" edge="1">
+        <mxCell id="x87mlo7bCjJ_3I-Y6eXt-7" value="" style="endArrow=none;endFill=0;endSize=12;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.979;entryY=0.339;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="f0wVNXhXmvdFokiBNhzK-1" target="cYjm4WS57ZkfU_0M4LS9-36" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-245" y="785" as="sourcePoint" />
             <mxPoint x="-900" y="945" as="targetPoint" />
@@ -212,9 +212,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x87mlo7bCjJ_3I-Y6eXt-8" value="Display Fetch API Error" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="1000" width="140" height="70" as="geometry" />
+          <mxGeometry x="-830" y="1030" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="x87mlo7bCjJ_3I-Y6eXt-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;dashed=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.96;entryY=0.806;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="x87mlo7bCjJ_3I-Y6eXt-8" target="AAG1h3JBsHE02cxiQFRj-8" edge="1">
+        <mxCell id="x87mlo7bCjJ_3I-Y6eXt-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;dashed=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="x87mlo7bCjJ_3I-Y6eXt-8" target="AAG1h3JBsHE02cxiQFRj-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-780" y="962.01" as="sourcePoint" />
             <mxPoint x="-910" y="963" as="targetPoint" />
@@ -317,6 +317,20 @@
         <mxCell id="cYjm4WS57ZkfU_0M4LS9-29" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cYjm4WS57ZkfU_0M4LS9-12">
           <mxGeometry x="0.1509" y="253" relative="1" as="geometry">
             <mxPoint x="199" y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-36" value="Get all rules by Child Id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="950" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-39" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=-0.026;entryY=0.339;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AAG1h3JBsHE02cxiQFRj-8" target="cYjm4WS57ZkfU_0M4LS9-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-870" y="957" as="sourcePoint" />
+            <mxPoint x="-712.8651006962585" y="955.5077057814242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=15;" vertex="1" connectable="0" parent="cYjm4WS57ZkfU_0M4LS9-39">
+          <mxGeometry x="-0.2447" y="7" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
