@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T09:55:51.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="t1ClUwAgmebzj3OYj8hL" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T10:02:18.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="j_Q9pFRsEcVhBbyyEdmY" version="13.8.8" type="github">
   <diagram id="Y8OE2I2hK1Na6KAGc6tf" name="Page-1">
-    <mxGraphModel dx="1243" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,10 +32,10 @@
           <mxGeometry x="850" y="750" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-12" value="Save Changes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1000" width="120" height="70" as="geometry" />
+          <mxGeometry x="800" y="1040" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="AAG1h3JBsHE02cxiQFRj-13" value="Invert Active State" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1098" y="820" width="140" height="70" as="geometry" />
+        <mxCell id="AAG1h3JBsHE02cxiQFRj-13" value="Invert Active State for ticked Children by rule Id" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="910" width="162" height="100" as="geometry" />
         </mxCell>
         <mxCell id="f0wVNXhXmvdFokiBNhzK-1" value="Database" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="1710" y="570" width="30" height="60" as="geometry" />
@@ -164,23 +164,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x87mlo7bCjJ_3I-Y6eXt-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="AAG1h3JBsHE02cxiQFRj-12" target="AAG1h3JBsHE02cxiQFRj-13" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="910" y="1060" as="sourcePoint" />
-            <mxPoint x="1190.02699055431" y="1057.0181526465876" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="x87mlo7bCjJ_3I-Y6eXt-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-45;" parent="x87mlo7bCjJ_3I-Y6eXt-14" vertex="1" connectable="0">
-          <mxGeometry x="-0.2447" y="7" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="x87mlo7bCjJ_3I-Y6eXt-16" value="" style="endArrow=none;endFill=0;endSize=12;html=1;entryX=0.961;entryY=0.702;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="f0wVNXhXmvdFokiBNhzK-1" target="AAG1h3JBsHE02cxiQFRj-12" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1620" y="490" as="sourcePoint" />
             <mxPoint x="927.8199999999997" y="709.9800000000002" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1460" y="930" />
+              <mxPoint x="1530" y="1075" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -196,6 +185,31 @@
             <mxPoint x="1633.6599999999999" y="510.8599999999999" as="sourcePoint" />
             <mxPoint x="927.8199999999997" y="709.9800000000002" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-1" value="Duplicate rule for Ticked Children" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="790" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cYjm4WS57ZkfU_0M4LS9-1" target="AAG1h3JBsHE02cxiQFRj-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1078.8612932590684" y="896.2736865171692" as="sourcePoint" />
+            <mxPoint x="800" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;br&gt;{if rule does not exist in Child}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-45;" vertex="1" connectable="0" parent="cYjm4WS57ZkfU_0M4LS9-6">
+          <mxGeometry x="-0.2377" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0.043;exitY=0.587;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AAG1h3JBsHE02cxiQFRj-13" target="AAG1h3JBsHE02cxiQFRj-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1080.0812932590593" y="859.5363134828351" as="sourcePoint" />
+            <mxPoint x="900" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYjm4WS57ZkfU_0M4LS9-10" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;{if rule exists in Child}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-30;" vertex="1" connectable="0" parent="cYjm4WS57ZkfU_0M4LS9-8">
+          <mxGeometry x="-0.1481" y="-6" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
