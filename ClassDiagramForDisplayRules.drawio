@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T19:15:45.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="542kL1-mUUBq_9V1mp5j" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T20:06:37.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Loip60b2saJYeDjYv7mr" version="13.8.8" type="github">
   <diagram id="JFlCuwMhZZcMJILRrFdY" name="Page-1">
-    <mxGraphModel dx="917" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
           <mxGeometry y="268" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4J9gVVPXhBhF94vH3yUa-9" value="PartnerDetailWebController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="946" width="360" height="112" as="geometry" />
+          <mxGeometry x="660" y="946" width="360" height="112" as="geometry" />
         </mxCell>
         <mxCell id="4J9gVVPXhBhF94vH3yUa-10" value="- partner : PartnerDetailWeb" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4J9gVVPXhBhF94vH3yUa-9">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry y="86" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4J9gVVPXhBhF94vH3yUa-13" value="PartnerDetailWeb" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="520" width="200" height="294" as="geometry" />
+          <mxGeometry x="740" y="520" width="200" height="294" as="geometry" />
         </mxCell>
         <mxCell id="4J9gVVPXhBhF94vH3yUa-17" value="- HomeUrl : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4J9gVVPXhBhF94vH3yUa-13">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -127,8 +127,8 @@
             <mxPoint x="60" y="500" as="sourcePoint" />
             <mxPoint x="305" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="675" y="820" />
-              <mxPoint x="675" y="820" />
+              <mxPoint x="830" y="820" />
+              <mxPoint x="830" y="820" />
             </Array>
             <mxPoint x="-105" y="110" as="offset" />
           </mxGeometry>
