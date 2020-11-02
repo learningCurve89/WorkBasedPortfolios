@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T11:33:49.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="QOPZDSxtvaUZ4cv4LDk6" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T11:35:31.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="SZPFgsbBvTnCYgrzcjAy" version="13.8.8" type="github">
   <diagram id="Y8OE2I2hK1Na6KAGc6tf" name="Page-1">
     <mxGraphModel dx="2897" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="-1010" y="920" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-9" value="Check if rule is active for each Child partner" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="840" width="140" height="70" as="geometry" />
+          <mxGeometry x="-810" y="820" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-11" value="Select Child&#39;s checkbox" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-980" y="1100" width="120" height="70" as="geometry" />
