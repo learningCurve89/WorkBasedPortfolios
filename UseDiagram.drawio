@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T11:53:34.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Xs_n_ZrrZk3IF7tdSrif" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T11:54:47.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="L-57TXrP6rWsvehzSxbD" version="13.8.8" type="github">
   <diagram id="Y8OE2I2hK1Na6KAGc6tf" name="Page-1">
     <mxGraphModel dx="2897" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="-710" y="430" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-6" value="Select Rule from Partner Rule Table" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="760" width="120" height="70" as="geometry" />
+          <mxGeometry x="-1050" y="720" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AAG1h3JBsHE02cxiQFRj-7" value="Get all Children by Partner Detail Id" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-696.5" y="690" width="140" height="70" as="geometry" />
@@ -164,7 +164,7 @@
         </mxCell>
         <mxCell id="f0wVNXhXmvdFokiBNhzK-22" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-30;" parent="f0wVNXhXmvdFokiBNhzK-21" vertex="1" connectable="0">
           <mxGeometry x="-0.2377" y="-6" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-60.23" y="25.98" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x87mlo7bCjJ_3I-Y6eXt-4" value="" style="endArrow=none;endFill=0;endSize=12;html=1;entryX=0.943;entryY=0.69;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="f0wVNXhXmvdFokiBNhzK-1" target="AAG1h3JBsHE02cxiQFRj-7" edge="1">
