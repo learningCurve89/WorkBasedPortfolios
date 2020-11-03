@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T19:05:02.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="t3hGfIkpNr7Ik7mWkQDG" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T19:05:26.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="4akZgHGoHnBzSDn3Tlqj" version="13.8.8" type="github">
   <diagram id="giAabpwPuGFfijqy-w_J" name="Page-1">
-    <mxGraphModel dx="3579" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1243" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="90" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-24" value="HR Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="930" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="870" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-25" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="960" width="30" height="60" as="geometry" />
@@ -79,7 +79,7 @@
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-56" value="Validate new password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="220" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-65" value="" style="endArrow=none;endFill=0;endSize=12;html=1;exitX=0.686;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-24" target="yPrp7qd_ZaBmRegbb4Uq-50">
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-65" value="" style="endArrow=none;endFill=0;endSize=12;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-24" target="yPrp7qd_ZaBmRegbb4Uq-50">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="73" y="870" as="sourcePoint" />
             <mxPoint x="230" y="820" as="targetPoint" />
