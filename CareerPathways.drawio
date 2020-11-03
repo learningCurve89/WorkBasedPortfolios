@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T20:13:08.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="QCg9JE_dmufOcKlTDM7T" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T20:13:46.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Tpy9IMCfZS3XDSAibuke" version="13.8.8" type="github">
   <diagram id="giAabpwPuGFfijqy-w_J" name="Page-1">
     <mxGraphModel dx="1517" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -59,19 +59,19 @@
           <mxGeometry x="280" y="600" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-47" value="Add Employee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1130" width="140" height="70" as="geometry" />
+          <mxGeometry x="580" y="1110" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-48" value="Delete Employee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="555" y="1220" width="140" height="70" as="geometry" />
+          <mxGeometry x="580" y="1190" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-49" value="Edit Employee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1320" width="140" height="70" as="geometry" />
+          <mxGeometry x="580" y="1270" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-50" value="Accept Add Skill and Skill Level Request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="1310" width="140" height="70" as="geometry" />
+          <mxGeometry x="230" y="1340" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-52" value="Deny Add Skill and skill Level Request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1330" width="140" height="70" as="geometry" />
+          <mxGeometry x="400" y="1340" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-56" value="Validate new password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="290" width="140" height="70" as="geometry" />
