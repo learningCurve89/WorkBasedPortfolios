@@ -1,90 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T18:12:21.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Sz3LlkCfyflKCF1ZdOFM" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T18:32:51.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="tFbX6-30Q28tCl-5YMdc" version="13.8.8" type="github">
   <diagram id="giAabpwPuGFfijqy-w_J" name="Page-1">
-    <mxGraphModel dx="870" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1243" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-1" value="&amp;lt;&amp;lt;System&amp;gt;&amp;gt;&lt;br&gt;CareerPathways" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=60;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="920" height="890" as="geometry" />
+          <mxGeometry x="200" width="850" height="1150" as="geometry" />
         </mxCell>
         <mxCell id="yPrp7qd_ZaBmRegbb4Uq-2" value="Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="30" height="60" as="geometry" />
+          <mxGeometry x="90" y="200" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=11;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-3" target="yPrp7qd_ZaBmRegbb4Uq-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-24" value="HR Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="790" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-11" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yPrp7qd_ZaBmRegbb4Uq-10">
-          <mxGeometry x="0.38" y="8" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-25" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="570" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="140" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-27" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;endSize=11;startSize=11;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-4" target="yPrp7qd_ZaBmRegbb4Uq-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-28" value="Check the Actions to complete to develop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-7" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yPrp7qd_ZaBmRegbb4Uq-6">
-          <mxGeometry x="-0.3316" y="6" relative="1" as="geometry">
-            <mxPoint x="-14" as="offset" />
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-29" value="Add Action to action list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;startSize=11;endArrow=open;endFill=0;endSize=11;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-4" target="yPrp7qd_ZaBmRegbb4Uq-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="330" y="395" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-31" value="Tick off completed Action from action list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-16" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yPrp7qd_ZaBmRegbb4Uq-15">
-          <mxGeometry x="-0.3487" y="32" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-32" value="Delete Action from action list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="470" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;startSize=11;endArrow=open;endFill=0;endSize=11;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-4" target="yPrp7qd_ZaBmRegbb4Uq-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="570" y="325" />
-              <mxPoint x="570" y="325" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-35" value="Select Desired Role&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="560" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-22" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yPrp7qd_ZaBmRegbb4Uq-21">
-          <mxGeometry x="0.2774" y="10" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-36" value="Display the skills and the skills level to achieve desired role" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="590" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-4" value="Display Home Page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="260" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-38" value="Delete action from the database" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="450" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;startSize=11;endArrow=open;endFill=0;endSize=11;" edge="1" parent="1" source="yPrp7qd_ZaBmRegbb4Uq-5" target="yPrp7qd_ZaBmRegbb4Uq-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-39" value="Change Password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-19" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yPrp7qd_ZaBmRegbb4Uq-18">
-          <mxGeometry x="-0.7556" y="3" relative="1" as="geometry">
-            <mxPoint x="29" y="-12" as="offset" />
-          </mxGeometry>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-40" value="Verify Current Password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-5" value="Display actions list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="190" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-41" value="Display Login error" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="40" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-9" value="Display login error" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="80" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-42" value="Change Name and Surname" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="300" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-12" value="Add Action in Action List" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="470" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-43" value="Change Profile Picture" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-13" value="Remove Action from Action List" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="610" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-44" value="Calculate percentage of learning development" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="320" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-14" value="Display percentage of learning development" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="360" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-45" value="Request to Add a Skill and Skill Level" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="530" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-17" value="Get all Actions from Action Table" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="190" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-46" value="Abandon Add Skill Request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-20" value="Get User Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="290" width="140" height="70" as="geometry" />
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-47" value="Add Employee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-48" value="Delete Employee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="770" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-49" value="Edit Employee" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="860" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-50" value="Accept Add Skill and Skill Level Request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="990" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-52" value="Deny Add Skill and skill Level Request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="940" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yPrp7qd_ZaBmRegbb4Uq-56" value="Validate new password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="220" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
