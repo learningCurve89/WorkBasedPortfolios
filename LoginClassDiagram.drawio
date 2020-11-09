@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-09T15:13:15.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="tpB2mKZxMmOYyw-fZoGY" version="13.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-09T15:14:58.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="XpeqEym_cRF4PdBUtU07" version="13.8.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1161" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A0lYxpGTVLTrkx8U0_eJ-110" value="Group" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="-1698" width="220" height="216" as="geometry" />
+          <mxGeometry x="560" y="-1670" width="220" height="294" as="geometry" />
         </mxCell>
         <mxCell id="A0lYxpGTVLTrkx8U0_eJ-111" value="- groupId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -184,8 +184,17 @@
         <mxCell id="A0lYxpGTVLTrkx8U0_eJ-116" value="+ getGroupName() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
           <mxGeometry y="164" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0lYxpGTVLTrkx8U0_eJ-117" value="+ getGroupDescription() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
+        <mxCell id="A0lYxpGTVLTrkx8U0_eJ-226" value="+ getGroupDescription() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
           <mxGeometry y="190" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A0lYxpGTVLTrkx8U0_eJ-227" value="+ setGroupId(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
+          <mxGeometry y="216" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A0lYxpGTVLTrkx8U0_eJ-229" value="+setGroupName(String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
+          <mxGeometry y="242" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A0lYxpGTVLTrkx8U0_eJ-230" value="+setGroupDescription(String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A0lYxpGTVLTrkx8U0_eJ-110">
+          <mxGeometry y="268" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A0lYxpGTVLTrkx8U0_eJ-118" value="&lt;&lt;interface&gt;&gt;&#xa;IDataAccess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="865" y="-2160" width="160" height="100" as="geometry" />
