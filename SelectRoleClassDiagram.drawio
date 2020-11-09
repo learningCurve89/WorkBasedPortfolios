@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-09T18:41:36.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="gVi0fjG5WjSLO-gt7rrg" version="13.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-09T18:48:08.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="f5pWMQJDWYZ-5SBUUQAb" version="13.8.9" type="github">
   <diagram id="vWUNiSj-AlJxfywqzo02" name="Page-1">
     <mxGraphModel dx="1132" dy="3052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry y="320" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-14" value="Role" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-1330" width="160" height="242" as="geometry" />
+          <mxGeometry x="270" y="-1490" width="160" height="242" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-15" value="- roleId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-14">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-24" value="Skill" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-1330" width="160" height="242" as="geometry" />
+          <mxGeometry x="510" y="-1490" width="160" height="242" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-25" value="- skillId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-24">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -107,7 +107,7 @@
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-34" value="SkillLevel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="-1330" width="320" height="294" as="geometry" />
+          <mxGeometry x="770" y="-1490" width="320" height="294" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-35" value="- skillLevelId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-34">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
@@ -193,6 +193,12 @@
         <mxCell id="kwmT5_W4P3ap97EktbIp-63" value="+ updateRole()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-59">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="kwmT5_W4P3ap97EktbIp-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=12;startSize=12;" edge="1" parent="1" source="kwmT5_W4P3ap97EktbIp-64" target="kwmT5_W4P3ap97EktbIp-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kwmT5_W4P3ap97EktbIp-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=12;startSize=12;" edge="1" parent="1" source="kwmT5_W4P3ap97EktbIp-64" target="kwmT5_W4P3ap97EktbIp-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-64" value="Database" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="-1890" width="330" height="138" as="geometry" />
         </mxCell>
@@ -211,26 +217,32 @@
         <mxCell id="kwmT5_W4P3ap97EktbIp-69" value="+ Database(roleRepository, roleSkillRepository)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-64">
           <mxGeometry y="112" width="330" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="kwmT5_W4P3ap97EktbIp-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=12;endArrow=diamondThin;endFill=1;endSize=12;" edge="1" parent="1" source="kwmT5_W4P3ap97EktbIp-77" target="kwmT5_W4P3ap97EktbIp-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-77" value="Service" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-2130" width="200" height="138" as="geometry" />
+          <mxGeometry x="720" y="-2190" width="270" height="164" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-78" value="- database : Database" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-77">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-77">
-          <mxGeometry y="52" width="200" height="8" as="geometry" />
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-80" value="+ Service(database)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-77">
-          <mxGeometry y="60" width="200" height="26" as="geometry" />
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-81" value="+ getRoles() : Role[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-77">
-          <mxGeometry y="86" width="200" height="26" as="geometry" />
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-82" value="+ getRoleSkills() : RoleSkill[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-77">
-          <mxGeometry y="112" width="200" height="26" as="geometry" />
+          <mxGeometry y="112" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kwmT5_W4P3ap97EktbIp-101" value="+ upsertEmployee(employee : Employee) : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-77">
+          <mxGeometry y="138" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-83" value="RoleRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="-2106" width="270" height="238" as="geometry" />
+          <mxGeometry x="1180" y="-2130" width="270" height="238" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-84" value="- getRoleConnectionString : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-83">
           <mxGeometry y="26" width="270" height="22" as="geometry" />
@@ -259,16 +271,16 @@
         <mxCell id="kwmT5_W4P3ap97EktbIp-96" value="+ deleteRole(role : Role)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-83">
           <mxGeometry y="212" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kwmT5_W4P3ap97EktbIp-91" value="UserGroupRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="-1780" width="250" height="86" as="geometry" />
+        <mxCell id="kwmT5_W4P3ap97EktbIp-91" value="RoleSkillRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="-1730" width="250" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="kwmT5_W4P3ap97EktbIp-92" value="- getUserGroupConnectionString : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-91">
+        <mxCell id="kwmT5_W4P3ap97EktbIp-92" value="- getRoleSkillsConnectionString : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-91">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kwmT5_W4P3ap97EktbIp-93" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-91">
           <mxGeometry y="52" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="kwmT5_W4P3ap97EktbIp-94" value="+ getUserGroups(userId : int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-91">
+        <mxCell id="kwmT5_W4P3ap97EktbIp-94" value="+ getRoleSkills(roleId : int) : RoleSkill[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kwmT5_W4P3ap97EktbIp-91">
           <mxGeometry y="60" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
