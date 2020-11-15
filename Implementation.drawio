@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T13:10:36.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-Nt4-OBKdSl2EmG5XeMe" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-15T13:10:57.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="E-TSG-nORFch7eE-9Raa" version="13.9.7" type="github">
   <diagram id="Ztgsr2mtBIRvW5Vl2Fyj" name="Page-1">
     <mxGraphModel dx="1021" dy="2945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -14,16 +14,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s304uV8dfxxNt7fJ2ZTq-1" value="SkillService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="-2000" width="290" height="86" as="geometry" />
+          <mxGeometry x="860" y="-2000" width="290" height="112" as="geometry" />
         </mxCell>
         <mxCell id="s304uV8dfxxNt7fJ2ZTq-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="s304uV8dfxxNt7fJ2ZTq-1">
           <mxGeometry y="26" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="s304uV8dfxxNt7fJ2ZTq-5" value="+ getSkills() : Skill[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s304uV8dfxxNt7fJ2ZTq-1">
+        <mxCell id="s304uV8dfxxNt7fJ2ZTq-5" value="+ get() : Skill[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s304uV8dfxxNt7fJ2ZTq-1">
           <mxGeometry y="34" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="s304uV8dfxxNt7fJ2ZTq-6" value="+ getSkillLevel() : SkillLevel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s304uV8dfxxNt7fJ2ZTq-1">
+        <mxCell id="s304uV8dfxxNt7fJ2ZTq-42" value="+ get(id) : Skill" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s304uV8dfxxNt7fJ2ZTq-1">
           <mxGeometry y="60" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s304uV8dfxxNt7fJ2ZTq-6" value="+ getSkillLevel() : SkillLevel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s304uV8dfxxNt7fJ2ZTq-1">
+          <mxGeometry y="86" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="s304uV8dfxxNt7fJ2ZTq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="s304uV8dfxxNt7fJ2ZTq-17" target="s304uV8dfxxNt7fJ2ZTq-35">
           <mxGeometry relative="1" as="geometry">
